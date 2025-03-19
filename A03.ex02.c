@@ -14,8 +14,8 @@ int main() {
 
         scanf("%d %d", &b, &c);
 
-        if ((a * a == b * b + c * c) || 
-            (b * b == a * a + c * c) || 
+        if ((a * a == b * b + c * c) 
+            (b * b == a * a + c * c) 
             (c * c == a * a + b * b)) {
             printf("Os valores formam um triângulo retângulo!\n");
         } else {
